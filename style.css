@@ -1,10 +1,18 @@
 
-*{ marging:0; padding:0;text-decoration: none;}
+*{ margin:0; padding:0;text-decoration: none;}
+
+body{
+    min-width: 1200px;
+    background-image:url('img/background.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
 
 .cn{ width:115px; color:#fff; background-color:rgb(236,164,10);}
 .en{ width:225px; color:rgb(189,189,190);font-size: 12px;}
 .container{width: 1280px;margin:0 auto;}
-.container .inner {overflow: hidden;margin-top:0;padding-left:140px;padding-right: 140px;padding-bottom: 90px;position: absolute;top:285px;}
+.container .inner {overflow: hidden;margin-top:0;padding-left:140px;padding-right: 140px;padding-bottom: 90px;top:285px;}
 /*一楼左*/
 .container .inner .floor .floor1{ overflow: hidden;}
 .container .inner .floor .floor1 .ml{ width:520px;height: 160px; float:left;}
@@ -52,16 +60,9 @@
 .container .inner .floor .floor3 .mr .list img{width:125px;height: 25px;}
 .container .inner .floor .floor3 .mr .list .link1{margin-bottom: 5px;}
 
-body{
-    min-width: 1200px;
-    background-image:url('img/background.png');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: 100%;
-}
+
 
 .nav{
-    height: 644px;
     width: 100%;
 }
 
