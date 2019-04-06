@@ -1,6 +1,5 @@
+
 *{ marging:0; padding:0;text-decoration: none;}
-html{width: 100%;}
-body{width: 100%;}
 
 .cn{ width:115px; color:#fff; background-color:rgb(236,164,10);}
 .en{ width:225px; color:rgb(189,189,190);font-size: 12px;}
@@ -52,3 +51,131 @@ body{width: 100%;}
 .container .inner .floor .floor3 .mr .mr-title .quick{color:rgb(34,56,101);font-weight: bold;float: left;margin-left: 5px;}
 .container .inner .floor .floor3 .mr .list img{width:125px;height: 25px;}
 .container .inner .floor .floor3 .mr .list .link1{margin-bottom: 5px;}
+
+body{
+    min-width: 1200px;
+    background-image:url('img/background.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
+
+.nav{
+    height: 644px;
+    width: 100%;
+}
+
+.nav .navbar{
+    width: 100%;
+    text-align: center; 
+}
+
+.nav .navbar .head{
+    height: 120px;
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.nav .navbar .head .cumtLogo{
+    height: 60%;
+    margin: 20px 0 0 0;
+    padding: 0 40px 0 0;
+    border-right: #FF9A0A 1px solid; 
+}
+
+.nav .navbar .head .stuSev{
+    height: 60%;
+    margin: 20px 0 0 20px;
+}
+
+.nav .list{
+    background: #FF9A0A;
+    opacity: 0.75;
+    height: 55px;
+}
+
+.nav .list ul{
+    display: inline-block;
+    color: #fff;
+    width: 8.5%;
+    height: 35px;
+    margin: 15px 1% 0px 1%;
+    font-weight: 700;
+    vertical-align: middle;
+    border-bottom: #FF9A0A solid 5px;
+}
+
+.nav .list ul:hover{
+    border-bottom: #fff solid 5px;
+}
+
+.pic_scroll{
+    width: 100%;
+}
+
+.pic{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.bottom{
+    height: 9px;
+    width: 100%;
+    background: #FF9A0A;
+    opacity: 0.75;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #FF9A0A;
+    opacity: 0.75;
+}
+
+.footer .inner{
+    width: 80%;
+    height: 100px;
+    background: #FF9A0A;
+    margin: 0% auto;
+}
+
+.footer .inner .footLeft{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 200;
+    display: inline-block;
+    width: 70%;
+    margin: 33px 0 0 0;
+}
+
+.footer .inner .footLeft a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    margin: 0 1.2% 0 1.2%;
+}
+
+.footer .inner .footLeft .space{
+    width: 50px;
+    height: 3px;
+}
+
+.footer .inner .footRight{
+    display: inline-block;
+    float: right;
+    margin: 20px 3% 0 0;
+    width: 200px;
+}
+
+.footer .inner .footRight img{
+    width: 60px;
+    height: 60px;
+    margin: 0 5% 0 5%;
+}
