@@ -127,6 +127,125 @@ body{
     background: #FF9A0A;
     opacity: 0.75;
 }
+/* 备用样式表 */
+.none { display:none; }
+.wcb{ width:100%; height:30px; border:2px dashed #97CBE0; }
+.hidden { visibility:hidden; }
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline; }
+.clearfix:after{clear: both;content: ".";display: block;height:0;visibility: hidden;}
+.clearfix{ display: block; *zoom:1; }
+.icon{display:inline-block;width: 32px;height: 32px;vertical-align:middle;background:url(images/icon.png) no-repeat;}
+/****/
+.l-container{ width: 100%; height: calc(100% - 9  0px);overflow: hidden; position: relative; /* 高度需改动 sticky footer */}
+.l-container .topper{ width: 100%;min-width: 1024px;}
+.l-container .inner1{ width: 1180px; margin: 0 auto; padding-top: 10px;}
+.l-container .inner1 .mod.floor1 { width: 820px;height: auto; overflow: hidden; font-size: 14px;text-align: center; position: relative;}
+.l-container .inner1 .mod.floor1 .mid { margin: 0 20px;}
+.l-container .inner1 .mod.floor1 .ml{ width:400px;height: 250px; position: relative; background-color: #fff; float: left;margin-top: 20px; box-sizing: border-box;border: 3px solid #00468C;border-radius: 5px;display: inline-block;}
+.l-container .inner1 .mod.floor1 .more_btn{float: right; }
+.l-container .inner1 .mod.floor1 .more_text{ color: #fff;}
+.l-container .inner1 .mod.floor1 .newsAndinfo { width: 365px;height: 250px;; box-sizing: border-box;  float: left;margin-top: 20px;text-align: left;display: inline-block;}
+.l-container .inner1 .mod.floor1 .newsAndinfo .title{ font-size: 18px; font-weight: 600; line-height: 30px; padding-left: 10px; background-color:orange;color: #fff;}
+.l-container .inner1 .mod.floor1 .newsAndinfo .more_btn { color: #fff;}
+.l-container .inner1 .mod.floor1 .post{ background-color: #fff;color: #000;font-size: 14px;font-weight: 400;}
+/* __________________________________________________ */
+.l-container .inner1 .mod.floor2 {margin-top: 20px;overflow: hidden;}
+.l-container .inner1 .mod.floor2 .ml { width: 390px;height: 280px;box-sizing: border-box;float: left;}
+.l-container .inner1 .mod.floor2 .mid {width: 375px; height: 280px;; margin: 0 20px;box-sizing: border-box;float: left;}
+.l-container .inner1 .mod.floor2 .mr { width:360px;height: 280px; box-sizing: border-box; float: left;}
+.l-container .inner1 .mod.floor2 .mr .inconGroup .icon_wrapper { background-color:orange;}
+.l-container .inner1 .mod.floor2 .mr .inconGroup .icons .icon { height: 66px; }
+.l-container .inner1 .mod.floor2 .title { color: #fff;font-size: 18px; font-weight: 600; line-height: 30px; padding-left: 10px;display: inline-block;}
+.l-container .inner1 .mod.floor2 .title .more_btn { display: inline-block;float: right;}
+/* __________________________________________________ */
+.btmgram {height: 20px;width: 1180px;margin: 0 auto;position: relative; }
+.btmgram .btm_btn{ box-sizing: border-box; width:350px; height:20px;background-color: #00468C; color: #fff; text-align: center;float: left;transition: 1s;}
+.btmgram .btm_btn .list{display: none;width: 350px;height: 160px; background-color: rgb(90, 154, 217);}
+.btmgram .btm_btn .list ul { float: left;}
+.btmgram .btm_btn .list ul li { width: 150px;margin-left: 20px; margin-top: 4px;}
+.btmgram .btm_btn .list ul li a{ color: #fff;}
+.btmgram .btm_btn .list ul li a img { height: 30px;margin-right: 5px;;}
+.btmgram .btm_btn:hover{transform: translateY(-220px);}
+.btmgram .btm_btn:hover .list{display: block;}
+.btmgram .station { margin: 0 60px;}
+
+
+
+
+
+
+/**主体列表页开始**/
+#l-container { height: 500px;
+    width: 100%;}
+#l-container .inner1 {padding:25px 10px;}
+
+/*页面尺寸*/
+.wrapper { width:100%; margin:0 auto;  }
+.wrapper .inner1{width: 1000px;height:500px; margin:0 auto;} /**页面全局宽度**/
+
+/**主体文章页开始**/
+#d-container {}
+#d-container .inner1{padding:20px 60px;background:#fff;}
+
+.col_menu {width: 240px;float:left;margin-right:-240px;position:relative;} 
+.col_menu .l-qh{ margin-bottom:10px;}
+.col_menu .col_menu_head {background:rgb(228,159,10);}/**位置栏目背景**/
+.col_menu .col_menu_head h3.col_name { font-size:20px; font-weight:normal; color:#fff; }/**位置栏目字体**/
+.col_menu .col_menu_head h3.col_name .col_name_text { display:block; line-height:50px; padding:0px 5px 0px 30px;}/**栏目名称图标**/
+.col_menu .col_menu_con{border:1px solid #e4e4e4;}
+
+/*栏目列表*/
+.col_list{}
+.col_list .wp_listcolumn { border-top:0px solid #2867A0; border-bottom:0px solid #fff; list-style-type: none;}
+.col_list .wp_listcolumn .wp_column a {color:#333;font-size: 15px;font-weight:normal;background:none;border-top:0px solid #fff;border-bottom: 0px solid #F6EAEA;list-style-type: none;}
+.col_list .wp_listcolumn .wp_column a .column-name{padding:5px 0px 5px 28px;line-height:32px;list-style-type:none;}
+.col_list .wp_listcolumn .wp_column a:hover,
+.col_list .wp_listcolumn .wp_column a.selected { color:rgb(65,65,65); background:#eee; } 
+.col_list .wp_listcolumn .wp_column a.selected span.column-name{color: rgb(65,65,65);list-style-type:none;}
+.col_list .wp_listcolumn .wp_subcolumn .wp_column a { color:#454545;background:none; border-top:1px solid #fff; border-bottom:1px solid #bbb;}
+.col_list .wp_listcolumn .wp_column.parent > a .column-name{font-weight:bold; color:rgb(65,65,65);list-style-type:none;}
+
+/*二级子栏目**/
+.col_list .wp_listcolumn .wp_column .sub_list{list-style-type: none;}
+.col_list .wp_listcolumn .wp_column .sub_list a {color:#333;border-top:0px solid #eee;margin-top:-1px; list-style-type: none;} 	
+.col_list .wp_listcolumn .sub_list a .column-name {display:inline-block;line-height: 28px;padding: 5px 10px 5px 52px;cursor:pointer;list-style-type:none;}
+.col_list .wp_listcolumn .sub_list a:hover,
+.col_list .wp_listcolumn .wp_column a.selected {font-weight:bold; font-weight:bold;color:rgb(65,65,65);} 
+/*三级子栏目**/
+.col_list .wp_listcolumn .wp_column .sub_list .sub_list a {background:none; list-style-type:none;} 	
+.col_list .wp_listcolumn .sub_list .sub_list a .column-name { padding: 5px 10px 5px 51px; cursor:pointer;list-style-type:none;}
+.col_list .wp_listcolumn .sub_list .sub_list a :hover,
+.col_list .wp_listcolumn .sub_list .sub_list a.selected {font-weight:bold; color:rgb(65,65,65);list-style-type: none;} 
+/**栏目新闻**/
+.col_news {width: 100%;min-height:500px;float:right;} 
+.col_news .col_news_box{margin-left: 290px;}
+.col_news_head {border-bottom: 1px solid #DBDBDB;}
+.col_metas .col_title { display:inline-block; float:left; height: 48px; line-height: 48px; }  /**当前栏目**/
+.col_metas .col_title h2 {display:inline-block;font-size: 20px;font-family:"Microsoft yahei";font-weight: normal;border-bottom: 0px solid #CBCBCB;}
+.col_metas .col_path {display:inline-block;float:right;white-space:nowrap;height: 46px;line-height: 46px;color: #666;} /**当前位置**/
+.col_metas .col_path a{color: #2F2F2F;}
+.col_news_con { padding:5px 0px 10px 0px; margin:0 7px;}
+.news_list{list-style-type: none;}
+.col_news_list { margin-top:7px;}
+.col_news_list .wp_article_list .list_item {} /**栏目新闻列表**/
+.col_news_list .wp_article_list .list_item .Article_Index { }  /**栏目新闻图标序号**/
+.col_news_list .wp_entry,.col_news_list .wp_entry p { line-height:1.75; font-size:14px; color:#333;}
+.col_news_list .wp_entry p { margin-bottom:10px;}
+.col_news_list .wp_entry table{ margin-bottom:4px;}
+.col_news_list .wp_entry img { max-width:680px; _width:expression(this.width > 680 ? "680px" : this.width); } /**列表页文章图片大小限制**/
+
+/**自定义新闻列表**/
+.news_list { }
+.news_list li.news {line-height: 34px;padding-left:0px;} /**标题图标**/
+.news_list li.news span.news_title { float:left;}/*标题*/
+.news_list li.news span.news_title img {vertical-align: middle;}
+.news_list li.news span.news_meta {float:right;margin-left:2px;color: #9C9C9C;}/*属性*/
+.news_list li.news .news_time,
+.news_list li.news .news_time span{color: #666;}/*发布时间*/
+.news_list li.news .news_icon {display:inline-block;margin:0 auto; border:0px solid red;}
+.news_list li.news .news_text {line-height:22px; color:#666;}/*默认简介*/
+.news_list li.news .news_bg {position:absolute; left:0px;bottom:0px; right:0px; height:30px; background:#000; opacity:.7; filter:Alpha(opacity=70);}
+.news_list li.news p {line-height:34px;}
 
 .footer{
     width: 100%;
